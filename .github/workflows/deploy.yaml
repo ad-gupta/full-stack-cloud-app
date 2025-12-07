@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tag: ${{secrets.DOCKER_USERNAME}}/full-stack-cloud-app
+          tag: ${{secrets.DOCKER_USERNAME}}/full-stack-cloud-app:latest
